@@ -1,0 +1,10 @@
+.container-nav{
+  display: flex;
+  justify-content: space-between;
+  
+
+  background-color: white;
+  min-height: 100px;
+  width: 100%;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+}
