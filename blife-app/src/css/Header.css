@@ -1,4 +1,10 @@
-.container-nav{
+:root{
+  --color-star: #EDA836;
+  --color-bg: #D9D9D9;
+  --color-1: #E1E1E1;
+  --color-heart: #FF8E8E;
+}
+.container-header{
   display: flex;
   justify-content: space-between;
   
@@ -7,4 +13,16 @@
   min-height: 100px;
   width: 100%;
   box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.header-company{
+  background-color: var(--color-heart);
+}
+.header-navegation{
+  background-color: var(--color-heart);
+  
+}
+.header-user{
+  background-color: var(--color-heart);
+
 }

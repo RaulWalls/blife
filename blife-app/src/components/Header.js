@@ -3,15 +3,16 @@ import '../css/Header.css';
 
 function Header(){
     return(
-        <div className="container-nav">
-            <div className='column1'>
-            column1
+        <div className="container-header">
+            <div className='header-company'>
+            Logotipo
             </div>
-            <div className='column2'>
-            column1
+            <div className='header-navegation'>
+            Navegacion
+            <div ></div>
             </div>
-            <div className='column3'>
-            column1
+            <div className='header-user'>
+            Usuario
             </div>
         </div>
     );
