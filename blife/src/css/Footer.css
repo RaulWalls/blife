@@ -1,0 +1,21 @@
+:root{
+    --bg-button-color: #83ca54ff;
+    --border-button-color: #34538aff;
+    --border-color: #dbc9bbff;
+    --banana-brain1: #ffde3c;
+    --banana-brain2: #fff9db;
+    --banana-brain3: #e9599b;
+    --banana-brain4: #99d3d5;
+}
+
+
+.banana-brain{
+    color: var(--banana-brain3);
+    text-decoration: none;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+}

@@ -1,7 +1,7 @@
 :root{
   --color-star: #EDA836;
-  --color-bg: #D9D9D9;
-  --color-1: #E1E1E1;
+  --color-bg: #F9F9F9;
+  --color-border: #E1E1E1;
   --color-heart: #FF8E8E;
   --color-bubble: #DD0606;
 }
@@ -45,11 +45,14 @@
 }
 .page{
   text-decoration: none;
-  background-color: var(--color-star);
+  background-color: #fff;
   border-radius: 100vmax;
   color: #000;
   font-weight: 600;
   padding: 0.1rem 1rem;
+}
+.page:hover{
+  background-color: var(--color-star);
 }
 .header-user{
   display: flex;

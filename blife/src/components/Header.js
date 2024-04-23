@@ -6,10 +6,12 @@ function Header(props) {
     <div className='container-header'>  
       <div className="container-nav">    
         <div className='header-company'>
-          <img
-          className='company-image'
-          src={require(`../img/${props.image}.png`)}
-          />
+          <a href='#'>
+            <img
+            className='company-image'
+            src={require(`../img/${props.image}.png`)}
+            />
+          </a>
         </div>
         <div className='header-navegation'>
           <div className='navegation-page'>
