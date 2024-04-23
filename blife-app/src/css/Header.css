@@ -63,6 +63,8 @@
 }
 .user-tool{
   position: relative;
+  transform: scale(var(--scale, 1));
+  transition: transform 0.25s;
 
 }
 .tool{
@@ -70,6 +72,9 @@
   width: auto;
   position: static;
   /* cursor: pointer; */
+}
+.user-tool:hover{
+  --scale: 1.2;
 }
 .bubble-notification{
   display: flex;
